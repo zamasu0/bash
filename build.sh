@@ -27,7 +27,7 @@ git clone https://github.com/zamasu0/media --depth=1 hardware/qcom-caf/sdm845/me
 git clone https://github.com/zamasu0/audio --depth=1 hardware/qcom-caf/sdm845/audio
 git clone https://github.com/zamasu0/display --depth=1 hardware/qcom-caf/sdm845/display
 git clone https://github.com/Linux-on-droid/vendor_lindroid --depth=1 vendor/lindroid
-git clone https://github.com/Linux-on-droid/libhybris --depth=1 external/libhybris
+git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b staging/lindroid-21 external/libhybris
 git clone https://github.com/Linux-on-droid/external_lxc --depth=1 external/lxc
 git clone https://github.com/zamasu0/android_frameworks_native --depth=1 frameworks/native
 
