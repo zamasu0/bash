@@ -15,11 +15,3 @@ git clone https://github.com/zamasu0/android_device_qcom_sepolicy_vndr_4.19_los 
 git clone https://github.com/zamasu0/media --depth=1 hardware/qcom-caf/sdm845/media
 git clone https://github.com/zamasu0/audio --depth=1 hardware/qcom-caf/sdm845/audio
 git clone https://github.com/zamasu0/display --depth=1 hardware/qcom-caf/sdm845/display
-
-# Set environment variable and source build script
-export DERP_BUILD=true
-source build/envsetup.sh
-
-# Lunch and build
-lunch derp_fajita-userdebug
-m bacon
