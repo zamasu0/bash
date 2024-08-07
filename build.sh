@@ -25,6 +25,9 @@ git clone https://github.com/zamasu0/android_device_qcom_sepolicy_vndr_4.19_los 
 git clone https://github.com/zamasu0/media --depth=1 hardware/qcom-caf/sdm845/media
 git clone https://github.com/zamasu0/audio --depth=1 hardware/qcom-caf/sdm845/audio
 git clone https://github.com/zamasu0/display --depth=1 hardware/qcom-caf/sdm845/display
+git clone https://github.com/Linux-on-droid/vendor_lindroid --depth=1 vendor/lindroid
+git clone https://github.com/Linux-on-droid/libhybris --depth=1 external/libhybris
+git clone https://github.com/Linux-on-droid/external_lxc --depth=1 external/lxc
 
 # build-setup
 export LINEAGE_BUILD=true
