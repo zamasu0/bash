@@ -12,6 +12,7 @@ rm -rf hardware/oneplus
 rm -rf hardware/qcom-caf/sdm845/media
 rm -rf hardware/qcom-caf/sdm845/audio
 rm -rf hardware/qcom-caf/sdm845/display
+rm -rf frameworks/native
 
 # Clone repositories
 git clone https://github.com/zamasu0/android_device_oneplus_fajita_4.19 --depth=1 -b lineage-21 device/oneplus/fajita
@@ -28,6 +29,7 @@ git clone https://github.com/zamasu0/display --depth=1 hardware/qcom-caf/sdm845/
 git clone https://github.com/Linux-on-droid/vendor_lindroid --depth=1 vendor/lindroid
 git clone https://github.com/Linux-on-droid/libhybris --depth=1 external/libhybris
 git clone https://github.com/Linux-on-droid/external_lxc --depth=1 external/lxc
+git clone https://github.com/zamasu0/android_frameworks_native --depth=1 frameworks/native
 
 # build-setup
 export LINEAGE_BUILD=true
