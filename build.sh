@@ -32,7 +32,7 @@ git clone https://github.com/Linux-on-droid/external_lxc --depth=1 external/lxc
 git clone https://github.com/zamasu0/android_frameworks_native --depth=1 frameworks/native
 
 # build-setup
-export LINEAGE_BUILD=true
+export DERP_BUILD=true
 source build/envsetup.sh
-lunch lineage_fajita-ap2a-eng
+lunch derp_fajita-userdebug
 m bacon
